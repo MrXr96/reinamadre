@@ -1,0 +1,31 @@
+Tecnologías usadas para el desarrollo de las interfaces:
+
+	Back
+		PHP 7.4.19
+
+	Front
+		Bootstrap v5.1.0
+		JSON
+		jquery-3.6.0
+
+	Database
+		MySQL - 5.5.5-10.4.19-MariaDB
+
+Problemas Extras resueltos:
+	- Cifrado de contraseña, se ocupó el cifrado de PHP PASSWORD_BCRYPT
+
+Repositorio
+	git version 2.31.1.windows.1
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::	          INSTRUCCIONES DE INSTALACIÓN              ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+1) Descarga o clona el proyecto del repositorio reinamadre.
+2) Descarga y ejecuta el script "reinamadrebd.sql" en tu gestor de bases de datos mySQL.
+3) Asegurate de tener el proyecto en la sigueinte ruta "http://localhost/reinamadre/".
+4) Modifica tus accesos de Base de datos en el archivo http://localhost/reinamadre/db/db.php en la linea:5.
+5) Asegurate de tener el servicio de apache encendido y la versión de PHP 7.4.19 o posterior.
+6) entra a la url http://localhost/reinamadre/ e inicia sesion con los siguientes accesos
+	-usuario: email@reina.test
+	-contraseña: 123
+7) En este punto ya deberías tener acceso al proyecto.
